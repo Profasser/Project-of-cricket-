@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SHAHFAHAD Shope</title>
+    <meta name="description" content="Get in touch with SHAHFAHAD Shope. Send us a message, find our physical store location, and check our business hours.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- STICKY NAVBAR -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo" id="nav-logo">
+                SHAHFAHAD<span>SHOPE</span>
+            </a>
+            
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link" id="link-home">Home</a>
+                <a href="shop.html" class="nav-link" id="link-shop">Shop</a>
+                <a href="about.html" class="nav-link" id="link-about">About</a>
+                <a href="contact.html" class="nav-link active" id="link-contact">Contact</a>
+            </nav>
+
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+                <a href="cart.html" class="cart-btn" id="nav-cart" aria-label="Shopping Cart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4H6z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-badge">3</span>
+                </a>
+                
+                <div class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- PAGE BANNER -->
+        <section class="page-banner">
+            <div class="container">
+                <span class="page-subtitle">Get in Touch</span>
+                <h1 class="page-title">Contact Us</h1>
+            </div>
+        </section>
+
+        <!-- CONTACT DETAILS & FORM -->
+        <section class="section">
+            <div class="container">
+                <div class="contact-section">
+                    <!-- Left Column: Form -->
+                    <div id="contact-form-side">
+                        <form class="contact-form" action="#" method="POST" onsubmit="return false;">
+                            <div class="form-group">
+                                <label for="form-name" class="form-label">Full Name</label>
+                                <input type="text" id="form-name" class="form-control" placeholder="John Doe" required autocomplete="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email" class="form-label">Email Address</label>
+                                <input type="email" id="form-email" class="form-control" placeholder="john@example.com" required autocomplete="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-subject" class="form-label">Subject</label>
+                                <input type="text" id="form-subject" class="form-control" placeholder="Product Inquiry / Custom Order" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message" class="form-label">Your Message</label>
+                                <textarea id="form-message" class="form-control" placeholder="How can our cricket specialists help you?" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Right Column: Info & Map -->
+                    <div class="contact-info-panel" id="contact-info-side">
+                        <div class="contact-details-list">
+                            <!-- Detail item: Address -->
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h4>Headquarters & Store</h4>
+                                    <p>Village Manki, Tehsil Lahor,<br>District Swabi</p>
+                                </div>
+                            </div>
+
+                            <!-- Detail item: Phone -->
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h4>Call Us Directly</h4>
+                                    <p>03199935310</p>
+                                </div>
+                            </div>
+
+                            <!-- Detail item: Email -->
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h4>Email Support</h4>
+                                    <p>za7223645@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Business Hours Grid -->
+                        <div class="hours-grid">
+                            <span class="hours-day">Monday - Friday</span>
+                            <span class="hours-time">09:00 AM - 08:00 PM</span>
+
+                            <span class="hours-day">Saturday</span>
+                            <span class="hours-time">10:00 AM - 06:00 PM</span>
+
+                            <span class="hours-day">Sunday</span>
+                            <span class="hours-time">11:00 AM - 04:00 PM</span>
+                        </div>
+
+                        <!-- Map placeholder box -->
+                        <div class="map-placeholder">
+                            <div class="map-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"></path>
+                                    <circle cx="12" cy="9" r="2.5"></circle>
+                                </svg>
+                            </div>
+                            <span class="map-text">SHAHFAHAD Shope Stadium Store Map</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Info column -->
+                <div class="footer-info">
+                    <a href="index.html" class="logo">SHAHFAHAD<span>SHOPE</span></a>
+                    <p class="footer-desc">
+                        Providing professional-grade cricket gear to players worldwide since 2018. Elevating performance and safety through premium sports craftsmanship.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick links column -->
+                <div>
+                    <h4 class="footer-title">Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop Collection</a></li>
+                        <li><a href="about.html">About Our Shop</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categories column -->
+                <div>
+                    <h4 class="footer-title">Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="shop.html">English Willow Bats</a></li>
+                        <li><a href="shop.html">Leather Match Balls</a></li>
+                        <li><a href="shop.html">Protective Padding</a></li>
+                        <li><a href="shop.html">Helmets & Guards</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact column -->
+                <div>
+                    <h4 class="footer-title">Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <span>Village Manki, Tehsil Lahor, District Swabi</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span>03199935310</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <span>za7223645@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 SHAHFAHAD Shope. All rights reserved. Built for professional players.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | SHAHFAHAD Shope</title>
+    <meta name="description" content="Discover our journey, core values, and the expert team behind SHAHFAHAD Shope, dedicated to supplying high-performance gear.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- STICKY NAVBAR -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo" id="nav-logo">
+                SHAHFAHAD<span>SHOPE</span>
+            </a>
+            
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link" id="link-home">Home</a>
+                <a href="shop.html" class="nav-link" id="link-shop">Shop</a>
+                <a href="about.html" class="nav-link active" id="link-about">About</a>
+                <a href="contact.html" class="nav-link" id="link-contact">Contact</a>
+            </nav>
+
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+                <a href="cart.html" class="cart-btn" id="nav-cart" aria-label="Shopping Cart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4H6z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-badge">3</span>
+                </a>
+                
+                <div class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- PAGE BANNER -->
+        <section class="page-banner">
+            <div class="container">
+                <span class="page-subtitle">Our Journey</span>
+                <h1 class="page-title">About SHAHFAHAD Shope</h1>
+            </div>
+        </section>
+
+        <!-- OUR STORY -->
+        <section class="section">
+            <div class="container">
+                <div class="story-section">
+                    <!-- Image Side -->
+                    <div class="story-image-container" id="about-story-media">
+                        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=800&auto=format&fit=crop" alt="Cricket bat manufacturing workshop" class="story-img">
+                    </div>
+                    <!-- Content Side -->
+                    <div class="story-content" id="about-story-text">
+                        <span class="section-subtitle">Since 2018</span>
+                        <h2 class="story-title">Crafting Championship Legacies</h2>
+                        <p class="story-text">
+                            SHAHFAHAD Shope was born out of a deep-seated obsession with the game's finest details. In cricket, the margin between a boundary and an edge is fractions of a millimeter. That's why we set out to source and distribute equipment that offers absolute precision, elite power transfer, and maximum safety.
+                        </p>
+                        <p class="story-text">
+                            What started as a boutique workshop selecting elite willow for local pros has evolved into a global supplier. We work hand-in-hand with legendary bat-makers and materials scientists to supply equipment that feels like an extension of the player.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Cricket Gear Gallery -->
+                <div class="about-gallery">
+                    <div class="about-gallery-item">
+                        <img src="assets/images/product-bat.png" alt="Cricket bats collection in workshop" loading="lazy">
+                    </div>
+                    <div class="about-gallery-item">
+                        <img src="assets/images/product-gloves.png" alt="Premium cricket gloves and protective gear" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- OUR MISSION / CORE VALUES -->
+        <section class="section" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">What Guides Us</span>
+                    <h2 class="section-title">Our Mission & Values</h2>
+                </div>
+
+                <div class="values-grid">
+                    <!-- Value 1: Quality -->
+                    <div class="value-card" id="value-quality">
+                        <div class="value-number">01</div>
+                        <h3 class="value-title">Uncompromising Quality</h3>
+                        <p class="value-desc">Every piece of English Willow, every seam on our leather balls, and every stitch in our protective pads is individually inspected to meet premium standards.</p>
+                    </div>
+
+                    <!-- Value 2: Trust -->
+                    <div class="value-card" id="value-trust">
+                        <div class="value-number">02</div>
+                        <h3 class="value-title">Player Trust</h3>
+                        <p class="value-desc">We represent authenticity. We guarantee 100% genuine brands, ensuring players have absolute confidence in the safety and durability of their gear.</p>
+                    </div>
+
+                    <!-- Value 3: Passion -->
+                    <div class="value-card" id="value-passion">
+                        <div class="value-number">03</div>
+                        <h3 class="value-title">Passion for the Game</h3>
+                        <p class="value-desc">We live and breathe cricket. Our customer support is staffed by active players and gear specialists who understand how vital the perfect pickup is.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEET THE TEAM -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Behind The Brand</span>
+                    <h2 class="section-title">Meet The Experts</h2>
+                </div>
+
+                <div class="team-grid">
+                    <!-- Team 1 -->
+                    <article class="team-card" id="team-1">
+                        <div class="team-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop" alt="David Warner, Founder" class="team-img" loading="lazy">
+                        </div>
+                        <h3 class="team-name">Marcus Finch</h3>
+                        <p class="team-role">Founder & Chief Selector</p>
+                        <div class="team-socials">
+                            <a href="#" class="team-social-link" aria-label="LinkedIn">
+                                <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="#" class="team-social-link" aria-label="Twitter">
+                                <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Team 2 -->
+                    <article class="team-card" id="team-2">
+                        <div class="team-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400&auto=format&fit=crop" alt="Sarah Jenkins, Head of Operations" class="team-img" loading="lazy">
+                        </div>
+                        <h3 class="team-name">Sarah Jenkins</h3>
+                        <p class="team-role">Head of Operations</p>
+                        <div class="team-socials">
+                            <a href="#" class="team-social-link" aria-label="LinkedIn">
+                                <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="#" class="team-social-link" aria-label="Twitter">
+                                <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Team 3 -->
+                    <article class="team-card" id="team-3">
+                        <div class="team-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format&fit=crop" alt="Arjun Nair, Product Specialist" class="team-img" loading="lazy">
+                        </div>
+                        <h3 class="team-name">Arjun Nair</h3>
+                        <p class="team-role">Equipment Specialist</p>
+                        <div class="team-socials">
+                            <a href="#" class="team-social-link" aria-label="LinkedIn">
+                                <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="#" class="team-social-link" aria-label="Twitter">
+                                <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Info column -->
+                <div class="footer-info">
+                    <a href="index.html" class="logo">SHAHFAHAD<span>SHOPE</span></a>
+                    <p class="footer-desc">
+                        Providing professional-grade cricket gear to players worldwide since 2018. Elevating performance and safety through premium sports craftsmanship.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick links column -->
+                <div>
+                    <h4 class="footer-title">Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop Collection</a></li>
+                        <li><a href="about.html">About Our Shop</a></li>
+                        <li><a href="#hero">Featured Gear</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categories column -->
+                <div>
+                    <h4 class="footer-title">Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="shop.html">English Willow Bats</a></li>
+                        <li><a href="shop.html">Leather Match Balls</a></li>
+                        <li><a href="shop.html">Protective Padding</a></li>
+                        <li><a href="shop.html">Helmets & Guards</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact column -->
+                <div>
+                    <h4 class="footer-title">Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <span>Village Manki, Tehsil Lahor, District Swabi</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span>03199935310</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <span>za7223645@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 SHAHFAHAD Shope. All rights reserved. Built for professional players.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

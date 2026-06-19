@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAHFAHAD Shope | Premium Cricket Equipment Shop</title>
+    <meta name="description" content="Gear up like a pro with SHAHFAHAD Shope's premium selection of English Willow bats, match-grade balls, and professional-grade protective gear.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- STICKY NAVBAR -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo" id="nav-logo">
+                SHAHFAHAD<span>SHOPE</span>
+            </a>
+            
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link active" id="link-home">Home</a>
+                <a href="shop.html" class="nav-link" id="link-shop">Shop</a>
+                <a href="about.html" class="nav-link" id="link-about">About</a>
+                <a href="contact.html" class="nav-link" id="link-contact">Contact</a>
+            </nav>
+
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+                <a href="cart.html" class="cart-btn" id="nav-cart" aria-label="Shopping Cart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4H6z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-badge">3</span>
+                </a>
+                
+                <!-- Mobile menu toggle for styling -->
+                <div class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="hero-tag">Elevate Your Game</span>
+                    <h1 class="hero-title">
+                        Gear Up <span>Like A Pro</span>
+                    </h1>
+                    <p class="hero-desc">
+                        Uncompromising quality for the modern cricketer. Discover our curated collection of professional-grade English Willow bats, high-performance leather balls, and protective gear engineered for champions.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="shop.html" class="btn btn-primary" id="hero-cta-shop">Shop Now</a>
+                        <a href="about.html" class="btn btn-secondary" id="hero-cta-about">Our Story</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED PRODUCTS -->
+        <section class="section" id="featured-products">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Curated Selection</span>
+                    <h2 class="section-title">Featured Products</h2>
+                </div>
+
+                <div class="products-grid">
+                    <!-- PRODUCT CARD 1 -->
+                    <article class="product-card" id="prod-bat">
+                        <div class="product-image-wrapper">
+                            <span class="product-badge">New Arrival</span>
+                            <img src="assets/images/product-bat.png" alt="MRF Genius Grand Edition Bat" class="product-img" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Bats</span>
+                            <h3 class="product-name">MRF Genius Grand Edition Bat</h3>
+                            <p class="product-desc">Grade 1 premium English Willow bat crafted for superior punch, power, and flawless pick-up.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$650.00</span>
+                                <button class="product-btn" aria-label="Add to Cart">
+                                    <svg viewBox="0 0 24 24">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PRODUCT CARD 2 -->
+                    <article class="product-card" id="prod-ball">
+                        <div class="product-image-wrapper">
+                            <span class="product-badge">Official Match</span>
+                            <img src="assets/images/product-ball.png" alt="Kookaburra Turf Cricket Ball" class="product-img" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Balls</span>
+                            <h3 class="product-name">Kookaburra Turf Cricket Ball</h3>
+                            <p class="product-desc">Official hand-stitched 4-piece leather ball used in international test matches, delivering maximum shape retention.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$75.00</span>
+                                <button class="product-btn" aria-label="Add to Cart">
+                                    <svg viewBox="0 0 24 24">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PRODUCT CARD 3 -->
+                    <article class="product-card" id="prod-gloves">
+                        <div class="product-image-wrapper">
+                            <span class="product-badge">Top Rated</span>
+                            <img src="assets/images/product-gloves.png" alt="SG Test Batting Gloves" class="product-img" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Protective</span>
+                            <h3 class="product-name">SG Test Batting Gloves</h3>
+                            <p class="product-desc">Highest grade multi-flex design for superb grip, impact absorption, and airflow ventilation.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$85.00</span>
+                                <button class="product-btn" aria-label="Add to Cart">
+                                    <svg viewBox="0 0 24 24">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PRODUCT CARD 4 -->
+                    <article class="product-card" id="prod-helmet">
+                        <div class="product-image-wrapper">
+                            <span class="product-badge">Safety Approved</span>
+                            <img src="assets/images/product-helmet.png" alt="Gray-Nicolls Cricket Helmet" class="product-img" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Protective</span>
+                            <h3 class="product-name">Gray-Nicolls Cricket Helmet</h3>
+                            <p class="product-desc">Lightweight high-impact composite shell with reinforced steel peak visor and custom micro-adjustment fit system.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$120.00</span>
+                                <button class="product-btn" aria-label="Add to Cart">
+                                    <svg viewBox="0 0 24 24">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                    <!-- PRODUCT CARD 5 -->
+                    <article class="product-card" id="prod-shoes">
+                        <div class="product-image-wrapper">
+                            <span class="product-badge">Top Traction</span>
+                            <img src="assets/images/product-shoes.png" alt="cricket shoes product image" class="product-img" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Footwear</span>
+                            <h3 class="product-name">Pro Cricket Spike Shoes</h3>
+                            <p class="product-desc">Genuine leather upper with steel spike outsole. Superior ankle support and cushioning for explosive runs.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$135.00</span>
+                                <button class="product-btn" aria-label="Add to Cart">
+                                    <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PRODUCT CARD 6 -->
+                    <article class="product-card" id="prod-kitbag">
+                        <div class="product-image-wrapper">
+                            <span class="product-badge">Heavy Duty</span>
+                            <img src="assets/images/product-kitbag.png" alt="cricket kit bag product image" class="product-img" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Bags</span>
+                            <h3 class="product-name">Premium Kit Bag</h3>
+                            <p class="product-desc">Ultra-durable waterproof material with bat compartments, heavy-duty wheels, and massive storage capacity.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$160.00</span>
+                                <button class="product-btn" aria-label="Add to Cart">
+                                    <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+        <!-- PERFORMANCE VIDEO SHOWCASE -->
+        <section class="section" style="border-top: 1px solid var(--border-color);" id="performance-showcase">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Performance Showcase</span>
+                    <h2 class="section-title">See Our Gear In Action</h2>
+                </div>
+
+                <div class="video-grid">
+                    <!-- Video Container -->
+                    <div class="video-wrapper">
+                        <video controls preload="metadata" poster="assets/images/hero-bg.png">
+                            <source src="https://assets.mixkit.co/videos/preview/mixkit-cricket-player-hitting-the-ball-41584-large.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                    <!-- Highlight Features -->
+                    <div class="video-features-list">
+                        <div class="video-feature-item">
+                            <div class="video-feature-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                            </div>
+                            <div class="video-feature-text">
+                                <h4>Sweet Spot Precision</h4>
+                                <p>Engineered with a profile that optimizes the sweet spot, allowing batsmen to find maximum value and power behind their strokes.</p>
+                            </div>
+                        </div>
+
+                        <div class="video-feature-item">
+                            <div class="video-feature-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                </svg>
+                            </div>
+                            <div class="video-feature-text">
+                                <h4>Pro-grade Durability</h4>
+                                <p>Every bat is double pressed for perfect compression, and every ball is hand stitched using selected alum tanned leather for long lasting play.</p>
+                            </div>
+                        </div>
+
+                        <div class="video-feature-item">
+                            <div class="video-feature-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                </svg>
+                            </div>
+                            <div class="video-feature-text">
+                                <h4>Impact Dispersion</h4>
+                                <p>Advanced padding technology in our gloves and guards keeps you protected from 150km/h+ deliveries, diffusing impact energy across the surface area.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US -->
+        <section class="section" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);" id="why-choose-us">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Our Promise</span>
+                    <h2 class="section-title">Why SHAHFAHAD Shope?</h2>
+                </div>
+
+                <div class="why-us-grid">
+                    <!-- COLUMN 1: FAST DELIVERY -->
+                    <div class="why-us-card" id="why-fast-delivery">
+                        <div class="why-us-icon">
+                            <svg viewBox="0 0 24 24">
+                                <rect x="1" y="3" width="15" height="13"></rect>
+                                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="why-us-title">Fast Delivery</h3>
+                        <p class="why-us-desc">Express global shipping. We ensure your professional gear reaches you securely before your next big match.</p>
+                    </div>
+
+                    <!-- COLUMN 2: GENUINE PRODUCTS -->
+                    <div class="why-us-card" id="why-genuine">
+                        <div class="why-us-icon">
+                            <svg viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M22 4L12 14.01l-3-3"></path>
+                            </svg>
+                        </div>
+                        <h3 class="why-us-title">100% Genuine</h3>
+                        <p class="why-us-desc">Straight from official manufacturers. Every willow bat, leather ball, and glove is certified for authenticity.</p>
+                    </div>
+
+                    <!-- COLUMN 3: BEST PRICES -->
+                    <div class="why-us-card" id="why-best-prices">
+                        <div class="why-us-icon">
+                            <svg viewBox="0 0 24 24">
+                                <line x1="12" y1="1" x2="12" y2="23"></line>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="why-us-title">Best Prices</h3>
+                        <p class="why-us-desc">Premium gear shouldn't be inaccessible. We offer competitive pricing, match-ready quality, and exclusive deals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Info column -->
+                <div class="footer-info">
+                    <a href="index.html" class="logo">SHAHFAHAD<span>SHOPE</span></a>
+                    <p class="footer-desc">
+                        Providing professional-grade cricket gear to players worldwide since 2018. Elevating performance and safety through premium sports craftsmanship.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick links column -->
+                <div>
+                    <h4 class="footer-title">Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop Collection</a></li>
+                        <li><a href="about.html">About Our Shop</a></li>
+                        <li><a href="#hero">Featured Gear</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categories column -->
+                <div>
+                    <h4 class="footer-title">Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="shop.html">English Willow Bats</a></li>
+                        <li><a href="shop.html">Leather Match Balls</a></li>
+                        <li><a href="shop.html">Protective Padding</a></li>
+                        <li><a href="shop.html">Helmets & Guards</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact column -->
+                <div>
+                    <h4 class="footer-title">Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <span>Village Manki, Tehsil Lahor, District Swabi</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span>03199935310</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <span>za7223645@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 SHAHFAHAD Shope. All rights reserved. Built for professional players.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
